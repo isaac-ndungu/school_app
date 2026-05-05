@@ -1,9 +1,31 @@
 {% extends 'base.html' %}
 
-{% block title %}About Us{% endblock %}
+{% block title %}Programmes{% endblock %}
 
 {% block content %}
-<h1>Our Programmes</h1>
-<p>Transformative tech education at favourable prices for all.</p>
+<div class="mx-auto max-w-7xl py-16">
+    <div class="text-center max-w-4xl mx-auto mb-12">
+        <h1 class="text-6xl font-bold mb-8">Our Programmes</h1>
+        <p class="text-lg text-gray-700">Transformative tech education at favourable prices for all.</p>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4">
+        <div class="border p-6 rounded-lg text-red-600 shadow-md ">
+            <h2 class="text-2xl font-semibold mb-4 text-center">Web Development</h2>
+            <p class="text-gray-600 mb-4">Learn to build modern web applications using HTML, CSS, JavaScript, and popular frameworks.</p>
+            <p><a href="" class="text-red-600 hover:underline">View Details</a></p>
+        </div>
+        <div class="border p-6 rounded-lg text-red-600 shadow-md ">
+            <h2 class="text-2xl font-semibold mb-4 text-center">Data Science</h2>
+            <p class="text-gray-600 mb-4">Master data analysis, visualization, and machine learning techniques to extract insights from data.</p>
+            <p><a href="" class="text-red-600 hover:underline">View Details</a></p>
+        </div>
+        <div class="border p-6 rounded-lg text-red-600 shadow-md ">
+            <h2 class="text-2xl font-semibold mb-4 text-center">Mobile App Development</h2>
+            <p class="text-gray-600 mb-4">Create engaging mobile applications for iOS and Android using React Native and Flutter.</p>
+            <p><a href="" class="text-red-600 hover:underline">View Details</a></p>
+        </div>
+    </div>
+</div>
 
 {% endblock %}
